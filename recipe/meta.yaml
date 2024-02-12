@@ -1,5 +1,5 @@
 {% set name = "stanio" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/stanio-{{ version }}.tar.gz
-  sha256: 8b586ac14b35cde1aad188dbf85824515c6842dc951a2b411dd138fb5c35fc9f
+  sha256: dee429314d965f390181afa8ff7ff8144446eeb58cc2547ccc108ba73e6744e2
 
 build:
   noarch: python
